@@ -1,4 +1,4 @@
-forked from qodesmith/datepicker. thanks.
+forked from <a href="https://github.com/qodesmith/datepicker">qodesmith/datepicker</a>. thanks.
 
 Add month only pick.
 
