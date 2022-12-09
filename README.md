@@ -1,5 +1,5 @@
-forked from qodesmith/datepicker
-add month only pick
+forked from qodesmith/datepicker.
+Add month only pick
 
 ```
  ____             __                               __
