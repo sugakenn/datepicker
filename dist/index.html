@@ -11,10 +11,10 @@
     <title>Document</title>
   </head>
   <body>
-    <input type="text" id="account_date" value="" />
+    <input type="text" id="dp_date" value="" />
 
     <script>
-      picker = window.datepicker("#account_date", {
+      picker = window.datepicker("#dp_date", {
         formatter: (input, date, instance) => {
           let y = String(date.getFullYear());
           let m = ("0" + String(date.getMonth() + 1)).slice(-2);
