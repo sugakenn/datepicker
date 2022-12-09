@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./datepicker.min.js"></script>
+    <link href="./datepicker.min.css" rel="stylesheet">
+
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="account_date" value="" />
+
+    <script>
+      picker = window.datepicker("#account_date", {
+        formatter: (input, date, instance) => {
+          let y = String(date.getFullYear());
+          let m = ("0" + String(date.getMonth() + 1)).slice(-2);
+          let d = ("0" + String(date.getDate())).slice(-2);
+          input.value = y + "/" + m ;
+        },
+        customMonths: [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月",
+          "7月",
+          "8月",
+          "9月",
+          "10月",
+          "11月",
+          "12月",
+        ],
+        customDays: ["日", "月", "火", "水", "木", "金", "土"],
+        overlayPlaceholder: "西暦4桁",
+        dateSelected: new Date(),
+        monthPicker: true,
+      });
+    </script>
+  </body>
+</html>
