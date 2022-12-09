@@ -2,8 +2,21 @@ forked from qodesmith/datepicker. thanks.
 
 Add month only pick.
 
-
-
+<hr>
+usage of month only pick.
+<pre><code>
+picker = window.datepicker("#date", {
+  // set formatter
+  formatter: (input, date, instance) => {
+    let y = String(date.getFullYear());    
+    let m = ("0" + String(date.getMonth() + 1)).slice(-2);
+    input.value = y + "-" + m ;    
+  },
+  // custom option "monthPicker"
+  monthPicker: true,
+});
+</code></pre>
+<hr>
 
 
 ```
