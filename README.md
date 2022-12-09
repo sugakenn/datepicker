@@ -4,6 +4,7 @@ Add month only pick.
 
 <hr>
 usage of month only pick.
+few changes overlay.
 <pre><code>
 picker = window.datepicker("#date", {
   // set formatter
@@ -16,6 +17,8 @@ picker = window.datepicker("#date", {
   monthPicker: true,
 });
 </code></pre>
+if monthPicker option not exists then use normaly.
+(input element on overlay has few difference of original one.) 
 <hr>
 
 
