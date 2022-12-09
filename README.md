@@ -18,7 +18,8 @@ picker = window.datepicker("#date", {
 });
 </code></pre>
 if monthPicker option not exists then use normaly.
-(input element on overlay has few difference of original one.) 
+
+(element of year on overlay has few difference of original one.) 
 <hr>
 
 
