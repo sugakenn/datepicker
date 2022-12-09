@@ -2,8 +2,6 @@ forked from <a href="https://github.com/qodesmith/datepicker">qodesmith/datepick
 
 Add month only pick.
 
-日本語の解説はブログに掲載しています
-
 
 <hr>
 usage of month only pick.
