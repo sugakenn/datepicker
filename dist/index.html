@@ -18,7 +18,6 @@
         formatter: (input, date, instance) => {
           let y = String(date.getFullYear());
           let m = ("0" + String(date.getMonth() + 1)).slice(-2);
-          let d = ("0" + String(date.getDate())).slice(-2);
           input.value = y + "/" + m ;
         },
         customMonths: [
@@ -36,7 +35,6 @@
           "12月",
         ],
         customDays: ["日", "月", "火", "水", "木", "金", "土"],
-        overlayPlaceholder: "西暦4桁",
         dateSelected: new Date(),
         monthPicker: true,
       });
