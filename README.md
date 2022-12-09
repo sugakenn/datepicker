@@ -4,6 +4,7 @@ Add month only pick.
 
 <hr>
 usage of month only pick.
+
 there are some changes on overlay.
 <pre><code>
 picker = window.datepicker("#date", {
