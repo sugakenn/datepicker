@@ -7,7 +7,7 @@ Add month only pick.
 usage of month only pick.
 
 there are some changes on overlay.
-<pre><code>
+```JavaScript
 picker = window.datepicker("#date", {
   // set formatter
   formatter: (input, date, instance) => {
@@ -18,7 +18,7 @@ picker = window.datepicker("#date", {
   // custom option "monthPicker"
   monthPicker: true,
 });
-</code></pre>
+```
 if monthPicker option not exists then use normaly.
 
 (element of year on overlay has difference of original one.) 
